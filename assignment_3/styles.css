@@ -29,12 +29,14 @@ div
 
 /* FIRST ROW : FLOATS; */
 .a1 {
+	float:right;
 }
 
 .b1 {
 }
 
 .c1 {
+	float:right;
 }
 
 .d1 {
@@ -43,15 +45,20 @@ div
 /* SECOND ROW : DISPLAY */
 
 .a2 {
+	
 }
 
 .b2 {
+	display:none;
 }
 
 .c2 {
+	width: 15px;
+	height: 15px;
 }
 
 .d2 {
+	display:block;
 }
 
 /* THIRD ROW : POSITION */
@@ -60,10 +67,21 @@ div
 }
 
 .b3 {
+	position:Absolute ;
+	display:inline-block;
+	left: 150px;
+	top: 420px;
 }
 
 .c3 {
+	position:Absolute ;
+	display:inline-block;
+	left: 650px;
+	top: 520px;
 }
 
 .d3 {
+	position: fixed;
+	left: 350px;
+	top: 280px;
 }

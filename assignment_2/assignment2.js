@@ -18,9 +18,8 @@ Write a loop that makes seven calls to console.log to output the following trian
 ######
 #######
 */
-
+let temp = '';
 for(var i = 1 ; i < 8 ; i ++) {
-    let temp = '';
-    for(var j = i ; j > 0 ; j--) temp = temp + "*";
+    temp += '*';
     console.log(temp);
 }
